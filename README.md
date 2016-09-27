@@ -1,4 +1,4 @@
-# pwntomate
+# pwntomate 🍅
 Automate pwnage, but documentation first!
 Preparing for the first prototype.
 
