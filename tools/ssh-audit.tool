@@ -1,6 +1,6 @@
 {
 	"toolname": "ssh-audit",
-	"command": "ssh-audit {ip}:{port} > {baseoutputdir}/{ip}/{port}/{toolname}/{toolname}.txt",
+	"command": "ssh-audit {ip}:{port} > {outputdir}/{toolname}.txt",
 	"trigger": ["ssh"],
 	"active": false
 }

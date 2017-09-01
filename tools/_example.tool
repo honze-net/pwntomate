@@ -1,6 +1,6 @@
 {
-	"toolname": "exampletool",
-	"command": "echo \"proto{s}://{ip}:{port}\" > {baseoutputdir}/{ip}/{port}/{toolname}/{toolname}.txt",
+	"toolname": "Example Tool",
+	"command": "echo \"proto{s}://{ip}:{port}\" > {outputdir}/{toolname}.txt",
 	"trigger": ["all"],
 	"active": false
 }

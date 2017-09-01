@@ -1,6 +1,6 @@
 {
 	"toolname": "sslyze",
-	"command": "sslyze --regular --xml_out=- {ip}:{port} > {baseoutputdir}/{ip}/{port}/{toolname}/{toolname}.xml",
+	"command": "sslyze --regular --xml_out=- {ip}:{port} > {outputdir}/{toolname}.xml",
 	"trigger": ["https"],
 	"active": true
 }
